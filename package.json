@@ -1,6 +1,6 @@
 {
   "name": "licensezero-jurisdictions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "list of License Zero supported jurisdictions by ISO 3166-2",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "repository": "licensezero/licensezero-jurisdictions",
