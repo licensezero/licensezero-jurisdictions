@@ -1,0 +1,18 @@
+{
+  "name": "licensezero-jurisdictions",
+  "version": "0.0.0",
+  "description": "list of License Zero supported jurisdictions by ISO 3166-2",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "licensezero/licensezero-jurisdictions",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "iso-3166-2": "^1.0.0"
+  },
+  "files": [
+    "index.json"
+  ],
+  "scripts": {
+    "build": "node build.js > index.json",
+    "prepackage": "npm run build"
+  }
+}
